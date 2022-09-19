@@ -1,0 +1,57 @@
+body {
+  font-family: "Vibes", cursive;
+  background-color: #14ce68;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 160px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 22px;
+  margin: 0 auto;
+}
+
+.decrease,
+.increase,
+.reset {
+  box-shadow: inset 0px 1px 0px 0px #9acc85;
+  background: linear-gradient(to bottom, #6acc3d 5%, #68a54b 100%);
+  background-color: #6acc3d;
+  border: 1px solid #3b6e22;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+.decrease,
+.increase,
+.reset:hover {
+  background: linear-gradient(to bottom, #68a54b 5%, #6acc3d 100%);
+  background-color: #68a54b;
+}
+.decrease,
+.increase,
+.reset:active {
+  position: relative;
+  top: 1px;
+}
